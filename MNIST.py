@@ -673,4 +673,4 @@ def read_image_and_label_file(path: str) -> torch.Tensor:
   if error_file_name:
     print(f"{len(error_file_name)}개 파일을 불러오는 것에 실패했습니다. error_file_name에서 확인하세요")
   
-  return result_img, labels, error_file_name
+  return result_img, labels #, error_file_name
