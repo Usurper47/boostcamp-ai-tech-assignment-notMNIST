@@ -492,7 +492,7 @@ def read_image_file(path: str) -> torch.Tensor:
 
 
 
-######
+######torchvision.datasets 내부의 .py파일입니다. 아래의 코드로 notMNIST 추가가 가능합니다. ########
 
 
 class notMNIST(VisionDataset):
